@@ -35,7 +35,7 @@ const TableRow = ({ data }: TableRowProps) => {
       key={data.symbol}
       className="cursor-pointer odd:bg-white even:bg-slate-100"
     >
-      <td className="px-3 m-0 p-0 border border-slate-200">
+      <td className="px-3 m-0 p-0 border border-slate-200 sticky left-0 bg-slate-50">
         <input
           type="checkbox"
           className="form-checkbox rounded border-slate-300"
@@ -43,8 +43,8 @@ const TableRow = ({ data }: TableRowProps) => {
         />
       </td>
       <td
-        className={`text-nowrap m-0 p-0 border border-slate-200 ${
-          activeCells["symbol"] ? `bg-gray-300` : ""
+        className={`text-nowrap m-0 p-0 border border-slate-200 sticky left-[41px]  symbol-col ${
+          activeCells["symbol"] ? `bg-gray-300` : "bg-slate-50"
         }`}
         onClick={() => toggleActive("symbol")}
       >

@@ -9,3 +9,7 @@ h1 {
   font-weight: 900 !important;
   font-style: normal;
 }
+
+.symbol-col {
+  box-shadow: inset -5px 0 5px -5px rgba(0, 0, 0, 0.5);
+}
