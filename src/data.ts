@@ -1,0 +1,243 @@
+interface StudyData {
+  symbol: string;
+  name: string;
+  price: number;
+  change: number;
+  percent_change: number;
+  volume: number;
+  average_volume: number;
+  market_cap: number;
+  pe_ratio: number;
+  week_range: {
+    position: string;
+    lower: number;
+    upper: number;
+  };
+}
+
+export const studyOneData: StudyData[] = [
+  {
+    symbol: "NVDA",
+    name: "NVIDIA Corporation",
+    price: 120.92,
+    change: -0.86,
+    percent_change: -0.71,
+    volume: 179.725 * 1000000,
+    average_volume: 476.275 * 1000000,
+    market_cap: 2.973 * 1000000000000,
+    pe_ratio: 71.1,
+    week_range: {
+      position: "ml-[50px]",
+      lower: 39.23,
+      upper: 132.84,
+    },
+  },
+  {
+    symbol: "AAPL",
+    name: "Apple Inc.",
+    price: 205.79,
+    change: +12.67,
+    percent_change: +6.56,
+    volume: 130.189 * 1000000,
+    average_volume: 60.814 * 1000000,
+    market_cap: 3.153 * 1000000000000,
+    pe_ratio: 31.98,
+    week_range: {
+      position: "ml-[65px]",
+      lower: 164.08,
+      upper: 220.2,
+    },
+  },
+  {
+    symbol: "TSLA",
+    name: "Tesla, Inc.",
+    price: 169.72,
+    change: -4.07,
+    percent_change: -2.34,
+    volume: 52.723 * 1000000,
+    average_volume: 90.353 * 1000000,
+    market_cap: 541.334 * 1000000000,
+    pe_ratio: 43.41,
+    week_range: {
+      position: "ml-[20px]",
+      lower: 138.8,
+      upper: 299.29,
+    },
+  },
+  {
+    symbol: "AMD",
+    name: "Advanced Micro Devices, Inc.",
+    price: 159.27,
+    change: -1.07,
+    percent_change: -0.67,
+    volume: 32.022 * 1000000,
+    average_volume: 57.407 * 1000000,
+    market_cap: 257.166 * 1000000000,
+    pe_ratio: 230.59,
+    week_range: {
+      position: "ml-[35px]",
+      lower: 93.12,
+      upper: 227.3,
+    },
+  },
+  {
+    symbol: "BAC",
+    name: "Bank of America Corporation",
+    price: 38.85,
+    change: -0.81,
+    percent_change: -2.05,
+    volume: 22.66 * 1000000,
+    average_volume: 37.296 * 1000000,
+    market_cap: 304.212 * 1000000000,
+    pe_ratio: 13.41,
+    week_range: {
+      position: "ml-[15px]",
+      lower: 24.96,
+      upper: 40.19,
+    },
+  },
+  {
+    symbol: "PFE",
+    name: "Pfizer Inc.",
+    price: 28.03,
+    change: -0.04,
+    percent_change: -0.14,
+    volume: 18.483 * 1000000,
+    average_volume: 39.283 * 1000000,
+    market_cap: 158.835 * 1000000000,
+    pe_ratio: 0,
+    week_range: {
+      position: "ml-[10px]",
+      lower: 25.2,
+      upper: 39.87,
+    },
+  },
+  {
+    symbol: "AMZN",
+    name: "Amazon.com, Inc.",
+    price: 186.3,
+    change: -0.76,
+    percent_change: -0.41,
+    volume: 16.841 * 1000000,
+    average_volume: 38.986 * 1000000,
+    market_cap: 1.939 * 1000000000000,
+    pe_ratio: 52.2,
+    week_range: {
+      position: "ml-[80px]",
+      lower: 118.35,
+      upper: 191.7,
+    },
+  },
+  {
+    symbol: "NEE",
+    name: "NextEra Energy, Inc.",
+    price: 72.07,
+    change: -4.9,
+    percent_change: -6.36,
+    volume: 15.882 * 1000000,
+    average_volume: 12.006 * 1000000,
+    market_cap: 147.916 * 1000000000,
+    pe_ratio: 19.67,
+    week_range: {
+      position: "ml-[60px]",
+      lower: 47.15,
+      upper: 80.47,
+    },
+  },
+  {
+    symbol: "GOOGL",
+    name: "Alphabet Inc.",
+    price: 176,
+    change: +0.99,
+    percent_change: +0.57,
+    volume: 14.929 * 1000000,
+    average_volume: 27.704 * 1000000,
+    market_cap: 2.185 * 1000000000,
+    pe_ratio: 27.05,
+    week_range: {
+      position: "ml-[85px]",
+      lower: 115.35,
+      upper: 180.41,
+    },
+  },
+  {
+    symbol: "INTC",
+    name: "Intel Corporation",
+    price: 31,
+    change: +0.09,
+    percent_change: +0.29,
+    volume: 15.034 * 1000000,
+    average_volume: 49.545 * 1000000,
+    market_cap: 131.92 * 1000000000,
+    pe_ratio: 31.95,
+    week_range: {
+      position: "ml-[6px]",
+      lower: 29.73,
+      upper: 51.28,
+    },
+  },
+  {
+    symbol: "T",
+    name: "AT&T Inc.",
+    price: 17.79,
+    change: -0.07,
+    percent_change: -0.38,
+    volume: 13.711 * 1000000,
+    average_volume: 35.178 * 1000000,
+    market_cap: 127.514 * 1000000000,
+    pe_ratio: 9.56,
+    week_range: {
+      position: "ml-[75px]",
+      lower: 13.43,
+      upper: 18.45,
+    },
+  },
+  {
+    symbol: "WFC",
+    name: "Wells Fargo & Company",
+    price: 57.46,
+    change: -0.47,
+    percent_change: -0.82,
+    volume: 11.158 * 1000000,
+    average_volume: 17.245 * 1000000,
+    market_cap: 200.394 * 1000000000,
+    pe_ratio: 11.97,
+    week_range: {
+      position: "ml-[65px]",
+      lower: 38.39,
+      upper: 62.55,
+    },
+  },
+  {
+    symbol: "ADBE",
+    name: "Adobe Inc.",
+    price: 525.31,
+    change: +66.57,
+    percent_change: +14.51,
+    volume: 14.734 * 1000000,
+    average_volume: 3.524 * 1000000,
+    market_cap: 235.339 * 1000000000,
+    pe_ratio: 47.41,
+    week_range: {
+      position: "ml-[40px]",
+      lower: 433.97,
+      upper: 638.25,
+    },
+  },
+  {
+    symbol: "XOM",
+    name: "Exxon Mobil Corporation",
+    price: 109.11,
+    change: -0.93,
+    percent_change: -0.85,
+    volume: 13.214 * 1000000,
+    average_volume: 17.246 * 1000000,
+    market_cap: 489.46 * 1000000000,
+    pe_ratio: 13.37,
+    week_range: {
+      position: "ml-[45px]",
+      lower: 95.77,
+      upper: 123.75,
+    },
+  },
+];
